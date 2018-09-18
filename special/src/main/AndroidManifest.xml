@@ -1,0 +1,12 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="hlhj.fhp.special" >
+
+    <application>
+        <activity android:name=".activitys.SpecialAty" />
+        <activity android:name=".activitys.SpecialSpecialDetailAty" />
+        <activity android:name=".activitys.SpecialInfoAty"
+            android:hardwareAccelerated="true"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustPan"/>
+        <activity android:name=".activitys.AllCommentAty" />
+    </application>
+</manifest>

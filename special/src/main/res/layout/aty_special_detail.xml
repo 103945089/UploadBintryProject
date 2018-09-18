@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/headImg"
+        android:scaleType="fitXY"
+        android:background="#f0eff5"
+        android:layout_width="match_parent"
+        android:layout_height="167dp" />
+    <com.liaoinstan.springview.widget.SpringView
+        android:id="@+id/spView"
+        android:layout_below="@id/headImg"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <include layout="@layout/list_lo"/>
+    </com.liaoinstan.springview.widget.SpringView>
+</RelativeLayout>
